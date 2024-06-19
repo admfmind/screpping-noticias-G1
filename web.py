@@ -16,7 +16,7 @@ with open("headers.txt", "r") as navegador:
     headers_eu = navegador.read()
 headers = {"User-Agent":headers_eu}
 
-# site G1 e BBC
+# site G1
 link_G1 = "https://g1.globo.com/" # G1
 
 #screpping G1
